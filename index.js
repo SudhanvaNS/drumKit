@@ -1,25 +1,25 @@
 
     function handleClick(key){
         switch (key) {
-            case 'a':   var audio=new Audio("tom-1.mp3");
+            case 'a':   var audio=new Audio("resources\\music\\tom-1.mp3");
                         audio.play();
                         break;
-            case 's':   var audio=new Audio("tom-2.mp3");
+            case 's':   var audio=new Audio("resources\\music\\tom-2.mp3");
                         audio.play();
                         break;
-            case 'd':   var audio=new Audio("tom-3.mp3");
+            case 'd':   var audio=new Audio("resources\\music\\tom-3.mp3");
                         audio.play();
                         break;
-            case 'f':   var audio=new Audio("tom-4.mp3");
+            case 'f':   var audio=new Audio("resources\\music\\tom-4.mp3");
                         audio.play();
                         break;
-            case 'g':   var audio=new Audio("kick-bass.mp3");
+            case 'g':   var audio=new Audio("resources\\music\\kick-bass.mp3");
                         audio.play();
                         break;
-            case 'h':   var audio=new Audio("crash.mp3");
+            case 'h':   var audio=new Audio("resources\\music\\crash.mp3");
                         audio.play();
                         break;
-            case 'j':   var audio=new Audio("snare.mp3");
+            case 'j':   var audio=new Audio("resources\\music\\snare.mp3");
                         audio.play();
                         break;
             default:console.log();
